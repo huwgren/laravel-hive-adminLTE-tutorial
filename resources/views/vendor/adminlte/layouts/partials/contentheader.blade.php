@@ -1,8 +1,10 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
     <h1>
-        @yield('contentheader_title', '[page title]')
-        <small>@yield('contentheader_description')</small>
+        DASHBOARD
+        <small>Summary</small>
+        {{--@yield('contentheader_title', 'HOME PAGE')
+        <small>@yield('contentheader_description','Dashboard Summary')</small>--}}
     </h1>
 {{--    <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> {{ trans('adminlte_lang::message.level') }}</a></li>

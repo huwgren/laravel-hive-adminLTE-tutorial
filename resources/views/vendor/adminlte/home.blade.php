@@ -8,13 +8,140 @@
 @section('main-content')
 
 	<!-- Main content -->
-	<section class="content container-fluid">
+	<section class="content {{--container-fluid--}}">
 
-		<!--------------------------
-          | Your Page Content Here |
-          -------------------------->
+        <!-- START EDUCATION TOPICS -->
+        {{--<h2 class="page-header">Education Topics</h2>--}}
 
-		<div class="panel panel-default">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box">
+                    <span class="info-box-icon bg-aqua"><i class="fa fa-envelope-o"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-number">Topic 1</span>
+                        <span class="info-box-text">[placeholder]</span>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box">
+                    <span class="info-box-icon bg-green"><i class="fa fa-flag-o"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Bookmarks</span>
+                        <span class="info-box-number">410</span>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box">
+                    <span class="info-box-icon bg-yellow"><i class="fa fa-files-o"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Uploads</span>
+                        <span class="info-box-number">13,648</span>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box">
+                    <span class="info-box-icon bg-red"><i class="fa fa-star-o"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Likes</span>
+                        <span class="info-box-number">93,139</span>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box bg-aqua">
+                    <span class="info-box-icon"><i class="fa fa-bookmark-o"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Bookmarks</span>
+                        <span class="info-box-number">41,410</span>
+                        <span class="progress-description">
+                        70% Increase in 30 Days
+                  </span>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box bg-green">
+                    <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Likes</span>
+                        <span class="info-box-number">41,410</span>
+                        <span class="progress-description">
+                    70% Increase in 30 Days
+                  </span>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box bg-yellow">
+                    <span class="info-box-icon"><i class="fa fa-calendar"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Events</span>
+                        <span class="info-box-number">41,410</span>
+                        <span class="progress-description">70% Increase in 30 Days, 70% Increase in 30 Days</span>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box bg-red">
+                    <span class="info-box-icon"><i class="fa fa-comments-o"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Comments</span>
+                        <span class="info-box-number">41,410</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                        <span class="progress-description">
+                    70% Increase in 30 Days
+                  </span>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+        <!-- END EDUCATION TOPICS -->
+
+        <div class="panel panel-default">
 			<div class="panel-heading">
 				<h3 class="panel-title">Panel title</h3>
 			</div>
@@ -28,7 +155,61 @@
 				<h3 class="panel-title">Panel title</h3>
 			</div>
 			<div class="panel-body">
-				Panel content
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-aqua"><i class="fa fa-envelope-o"></i></span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-text">Messages</span>
+                                <span class="info-box-number">1,410</span>
+                            </div>
+                            <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-green"><i class="fa fa-flag-o"></i></span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-text">Bookmarks</span>
+                                <span class="info-box-number">410</span>
+                            </div>
+                            <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-yellow"><i class="fa fa-files-o"></i></span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-text">Uploads</span>
+                                <span class="info-box-number">13,648</span>
+                            </div>
+                            <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-red"><i class="fa fa-star-o"></i></span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-text">Likes</span>
+                                <span class="info-box-number">93,139</span>
+                            </div>
+                            <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
 			</div>
 		</div>
 
