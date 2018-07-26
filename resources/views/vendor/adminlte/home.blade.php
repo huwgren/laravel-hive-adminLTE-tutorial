@@ -10,7 +10,90 @@
 	<!-- Main content -->
 	<section class="content {{--container-fluid--}}">
 
-        <!-- START EDUCATION TOPICS -->
+
+        <!-- PRODUCT LIST -->
+        <div class="box box-primary">
+            <div class="box-header with-border">
+                <h3 class="box-title">Loan Progress</h3>
+
+                <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                    </button>
+                    {{--<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>--}}
+                </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <ul class="products-list product-list-in-box">
+                    <li class="item">
+                        <div class="product-img">
+                            <i class="fa fa-3x fa-warning"></i>
+                        </div>
+                        <div class="product-info">
+                            <a href="javascript:void(0)" class="product-title">Item 1
+                                <span class="pull-right"><i class="fa fa-3x fa-warning"></i></span></a>
+                            <span class="product-description">Samsung 32" 1080p 60Hz LED Smart HDTV.</span>
+                        </div>
+                    </li>
+                    <!-- /.item -->
+                    <li class="item">
+                        <div class="product-img">
+                            <i class="fa fa-3x fa-warning"></i>
+                        </div>
+                        <div class="product-info">
+                            <a href="javascript:void(0)" class="product-title">Item 1
+                                <span class="pull-right"><i class="fa fa-3x fa-warning"></i></span></a>
+                            <span class="product-description">Samsung 32" 1080p 60Hz LED Smart HDTV.</span>
+                        </div>
+                    </li>
+                    <!-- /.item -->
+                    <li class="item">
+                        <div class="product-img">
+                            <i class="fa fa-3x fa-warning"></i>
+                        </div>
+                        <div class="product-info">
+                            <a href="javascript:void(0)" class="product-title">Item 1
+                                <span class="pull-right"><i class="fa fa-3x fa-warning"></i></span></a>
+                            <span class="product-description">Samsung 32" 1080p 60Hz LED Smart HDTV.</span>
+                        </div>
+                    </li>
+                    <!-- /.item -->
+                    <li class="item">
+                        <div class="product-img">
+                            <i class="fa fa-3x fa-warning"></i>
+                        </div>
+                        <div class="product-info">
+                            <a href="javascript:void(0)" class="product-title">Item 1
+                                <span class="pull-right"><i class="fa fa-3x fa-warning"></i></span></a>
+                            <span class="product-description">Samsung 32" 1080p 60Hz LED Smart HDTV.</span>
+                        </div>
+                    </li>
+                    <!-- /.item -->
+                    <li class="item">
+                        <div class="product-img">
+                            <i class="fa fa-3x fa-warning"></i>
+                        </div>
+                        <div class="product-info">
+                            <a href="javascript:void(0)" class="product-title">Item 1
+                                <span class="pull-right"><i class="fa fa-3x fa-warning"></i></span></a>
+                            <span class="product-description">Samsung 32" 1080p 60Hz LED Smart HDTV.</span>
+                        </div>
+                    </li>
+                    <!-- /.item -->
+                </ul>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer text-center">
+                <a href="javascript:void(0)" class="uppercase">View All Products</a>
+            </div>
+            <!-- /.box-footer -->
+        </div>
+        <!-- /.box -->
+
+
+
+
+		<!-- START EDUCATION TOPICS -->
         {{--<h2 class="page-header">Education Topics</h2>--}}
 
         <div class="row">
