@@ -4,9 +4,9 @@
     <!-- Logo -->
     <a href="{{ url('/home') }}" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b>A</b>LT</span>
+        <span class="logo-mini"><b>S</b>&<b>L</b></span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><b>Admin</b>LTE Laravel </span>
+        <span class="logo-lg"><b>Salt&Lime</b> Hub</span>
     </a>
 
     <!-- Header Navbar -->
@@ -23,10 +23,10 @@
                     <!-- Menu toggle button -->
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fa fa-envelope-o"></i>
-                        <span class="label label-success">4</span>
+                        <span class="label label-success">[4]</span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li class="header">{{ trans('adminlte_lang::message.tabmessages') }}</li>
+                        <li class="header">You have [x] messages</li>
                         <li>
                             <!-- inner menu: contains the messages -->
                             <ul class="menu">
@@ -38,11 +38,11 @@
                                         </div>
                                         <!-- Message title and timestamp -->
                                         <h4>
-                                            {{ trans('adminlte_lang::message.supteam') }}
+                                            [placeholder]
                                             <small><i class="fa fa-clock-o"></i> 5 mins</small>
                                         </h4>
                                         <!-- The message -->
-                                        <p>{{ trans('adminlte_lang::message.awesometheme') }}</p>
+                                        <p>[placeholder for message]</p>
                                     </a>
                                 </li><!-- end message -->
                             </ul><!-- /.menu -->
